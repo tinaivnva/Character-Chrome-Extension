@@ -1,0 +1,14 @@
+{
+   
+    "manifest_version": 3,
+    "name": "Popup Buddy Chrome Extension",
+    "description": "A minimal example of a chrome extension using manifest v3",
+    "version": "0.0.1",
+    "matches": ["https://*/*"],
+    "icons": {
+    },
+    "action": {
+        "default_title": "Chrome Popup Buddy",
+        "default_popup": "popup.html"
+    }
+}
